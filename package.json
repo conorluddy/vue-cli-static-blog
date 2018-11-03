@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:static": "http-server ./dist",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
@@ -24,6 +25,7 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "http-server": "^0.11.1",
     "node-sass": "^4.9.0",
     "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.0.1",
